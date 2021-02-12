@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Курси валют</string>
+    <string name="privat_bank_tv">Приват Банк</string>
+    <string name="pb_currency_text">Валюта</string>
+    <string name="pb_purchase_text">Покупка</string>
+    <string name="pb_sale_text">Продаж</string>
+    <string name="nbu_text">НБУ</string>
+
+    <string-array name = "currencies">
+        <item>Дирхам Об\'єднаних Арабських Еміратів</item>
+        <item>Афганські афгані</item>
+        <item>Албанський лек</item>
+        <item>Вірменський Драм</item>
+        <item>Нідерландський антильський гульден</item>
+        <item>Ангольська кванза</item>
+        <item>Аргентинське песо</item>
+        <item>Австралійський долар</item>
+        <item>Флорин Арубану</item>
+        <item>Азербайджанський манат</item>
+        <item>Конвертована марка Боснії та Герцеговини</item>
+        <item>Барбадоський долар</item>
+        <item>Бангладешська Така</item>
+        <item>Болгарський лев</item>
+        <item>Bahraini Dinar</item>
+        <item>Бахрейнський динар</item>
+        <item>Бермудський долар</item>
+        <item>Brunei Dollar</item>
+        <item>Долар Брунею</item>
+        <item>Бразильський Реал</item>
+        <item>Багамський долар</item>
+        <item>Біткойн</item>
+        <item>Бутанський Нгултрум</item>
+        <item>Ботсвана Пула</item>
+        <item>Білоруський рубль</item>
+        <item>Белізський долар</item>
+        <item>Канадський долар</item>
+        <item>Конголезський франк</item>
+        <item>Швейцарський франк</item>
+        <item>Чилійська розрахункова одиниця (UF)</item>
+        <item>Чилійський песо</item>
+        <item>Китайський юань (офшорний)</item>
+        <item>Китайський юань</item>
+        <item>Колумбійське песо</item>
+        <item>Коста-риканський Колон</item>
+        <item>Кубинський конвертований песо</item>
+        <item>Кубинське песо</item>
+        <item>Кабо-вердинське ескудо</item>
+        <item>Чеська крона</item>
+        <item>Франк Джибуті</item>
+        <item>Датська крона</item>
+        <item>Домініканське песо</item>
+        <item>Алжирський динар</item>
+        <item>Єгипетський фунт</item>
+        <item>Еритрейська Накфа</item>
+        <item>Ефіопський бір</item>
+        <item>Євро</item>
+        <item>Фіджійський долар</item>
+        <item>Фунт Фолклендських островів</item>
+        <item>Британський фунт стерлінгів</item>
+        <item>Грузинський ларі </item>
+        <item>Гернсійський фунт </item>
+        <item>Ганський седі </item>
+        <item>Гібралтарський фунт </item>
+        <item>Гамбійські даласі </item>
+        <item>Гвінейський франк </item>
+        <item>Гватемальський кетсаль </item>
+        <item>Гайанський долар </item>
+        <item>Гонконгський долар </item>
+        <item>Гондураська Лемпіра </item>
+        <item>Хорватська куна </item>
+        <item>Гаїтянський Гурд </item>
+        <item>Угорський форинт </item>
+        <item>Індонезійська рупія </item>
+        <item>Новий ізраїльський шекель </item>
+        <item>Фунт манкса </item>
+        <item>Індійська рупія </item>
+        <item>Іракський динар </item>
+        <item>Іранський ріал </item>
+        <item>Ісландська крона </item>
+        <item>Джерсійський фунт </item>
+        <item>Ямайський долар </item>
+        <item>Йорданський динар </item>
+        <item>Японська єна </item>
+        <item>Кенійський шилінг </item>
+        <item>Киргизські соми </item>
+        <item>Камбоджійський Ріель </item>
+        <item>Франк Коморських </item>
+        <item>Північнокорейська вона </item>
+        <item>Південнокорейський вон </item>
+        <item>Кувейтський динар </item>
+        <item>Долар Кайманових островів </item>
+        <item>Казахстанський тенге </item>
+        <item>Лаоський кіп </item>
+        <item>Ліванський фунт </item>
+        <item>Шрі-ланкійська рупія </item>
+        <item>Ліберійський долар </item>
+        <item>Лесото Лоті </item>
+        <item>Лівійський динар </item>
+        <item>Марокканський дирхам </item>
+        <item>Молдавський лей </item>
+        <item>Мадагаскарський Аріарі </item>
+        <item>Македонський денар </item>
+        <item>М’янма Кят </item>
+        <item>Монгольський тугрик </item>
+        <item>Патака Макане </item>
+        <item>Мавританська угія (до 2018 р.) </item>
+        <item>Мавританська угія </item>
+        <item>Маврикійська рупія </item>
+        <item>Мальдівська руфія </item>
+        <item>Малавійська квача </item>
+        <item>Мексиканське песо </item>
+        <item>Малайзійський ринггіт </item>
+        <item>Мозамбікський метикал </item>
+        <item>Намібійський долар </item>
+        <item>Нігерійська Найра </item>
+        <item>Нікарагуанська Кордова </item>
+        <item>Норвезька крона </item>
+        <item>Непальська рупія </item>
+        <item>Новозеландський долар </item>
+        <item>Оманський ріал </item>
+        <item>Панамський бальбоа </item>
+        <item>Перуанський Nuevo Sol </item>
+        <item>Папуа-Нова Гвінейська Кіна </item>
+        <item>Філіппінське песо </item>
+        <item>Пакистанська рупія </item>
+        <item>Польський злотий </item>
+        <item>Парагвайський гуарані </item>
+        <item>Катарський ріал </item>
+        <item>Румунський лей </item>
+        <item>Сербський динар </item>
+        <item>Російський рубль </item>
+        <item>Франк Руанди </item>
+        <item>Саудівський ріал </item>
+        <item>Долар Соломонових островів </item>
+        <item>Сейшельська рупія </item>
+        <item>Суданський фунт </item>
+        <item>Шведська крона </item>
+        <item>Сінгапурський долар </item>
+        <item>Фунт Святої Єлени </item>
+        <item>Сьєрра-Леоне Леоне </item>
+        <item>Сомалійський шилінг </item>
+        <item>Суринамський долар </item>
+        <item>Південно-суданський фунт </item>
+        <item>Сан-Томе і Принсіпі Добра (до 2018 р.) </item>
+        <item>Сан-Томе і Принсіпі Добра </item>
+        <item>Сальвадорська кишка </item>
+        <item>Сирійський фунт </item>
+        <item>Свазі Лілангені </item>
+        <item>Тайський бат </item>
+        <item>Таджицькі сомоні </item>
+        <item>Туркменський манат </item>
+        <item>Туніський динар </item>
+        <item>Тонганська паанга </item>
+        <item>Турецька ліра </item>
+        <item>Долар Тринідаду і Тобаго </item>
+        <item>Новий тайванський долар </item>
+        <item>Танзанійський шилінг </item>
+        <item>Українська гривня </item>
+        <item>Угандійський шилінг </item>
+        <item>Долар США </item>
+        <item>Уругвайське песо </item>
+        <item>Узбекистан Сом </item>
+        <item>Венесуельський Болівар Фуерте (старий) </item>
+        <item>Венесуельський Болівар Соберано </item>
+        <item>В’єтнамський донг </item>
+        <item>Вануату Вату </item>
+        <item>Самоанська тала </item>
+        <item>Франк CFA BEAC </item>
+        <item>Срібна унція </item>
+        <item>Золота унція </item>
+        <item>Східно-карибський долар </item>
+        <item>Спеціальні права запозичення </item>
+        <item>Франк CFA BCEAO </item>
+        <item>Унція паладію </item>
+        <item>Франк CFP </item>
+        <item>Платинова унція </item>
+        <item>Єменський ріал </item>
+        <item>Південноафриканський ранд </item>
+        <item>Замбійська квача </item>
+        <item>Зімбабвійський долар </item>
+    </string-array>
+
+    <string-array name="currency_codes">
+        <item>AED</item>
+        <item>AFN</item>
+        <item>ALL</item>
+        <item>AMD</item>
+        <item>ANG</item>
+        <item>AOA</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BDT</item>
+        <item>BGN</item>
+        <item>BHD</item>
+        <item>BIF</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BTC</item>
+        <item>BTN</item>
+        <item>BWP</item>
+        <item>BYN</item>
+        <item>BZD</item>
+        <item>CAD</item>
+        <item>CDF</item>
+        <item>CHF</item>
+        <item>CLF</item>
+        <item>CLP</item>
+        <item>CNH</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUC</item>
+        <item>CUP</item>
+        <item>CVE</item>
+        <item>CZK</item>
+        <item>DJF</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>DZD</item>
+        <item>EGP</item>
+        <item>ERN</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GEL</item>
+        <item>GGP</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>GMD</item>
+        <item>GNF</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HTG</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IQD</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LSL</item>
+        <item>LYD</item>
+        <item>MAD</item>
+        <item>MDL</item>
+        <item>MGA</item>
+        <item>MKD</item>
+        <item>MMK</item>
+        <item>MNT</item>
+        <item>MOP</item>
+        <item>MRO</item>
+        <item>MRU</item>
+        <item>MUR</item>
+        <item>MVR</item>
+        <item>MWK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NGN</item>
+        <item>NIO</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PGK</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RSD</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>SAR</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SDG</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SHP</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SRD</item>
+        <item>SSP</item>
+        <item>STD</item>
+        <item>STN</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>SZL</item>
+        <item>THB</item>
+        <item>TJS</item>
+        <item>TMT</item>
+        <item>TND</item>
+        <item>TOP</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TWD</item>
+        <item>TZS</item>
+        <item>UAH</item>
+        <item>UGX</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VES</item>
+        <item>VND</item>
+        <item>VUV</item>
+        <item>WST</item>
+        <item>XAF</item>
+        <item>XAG</item>
+        <item>XAU</item>
+        <item>XCD</item>
+        <item>XDR</item>
+        <item>XOF</item>
+        <item>XPD</item>
+        <item>XPF</item>
+        <item>XPT</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZMW</item>
+        <item>ZWL</item>
+    </string-array>
+</resources>
