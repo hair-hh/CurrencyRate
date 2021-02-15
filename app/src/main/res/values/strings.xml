@@ -12,6 +12,7 @@
     <string name="amount_nbu_example_text" translatable="false">1 USD</string>
     <string name="currency_nbu_example_text" translatable="false">Dollar USA</string>
     <string name="nbu_text">NBU</string>
+    <string name="network_problem">Network connection problem!</string>
 
     <string-array name = "currencies">
         <item>United Arab Emirates Dirham</item>

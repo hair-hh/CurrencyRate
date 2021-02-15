@@ -21,23 +21,22 @@ public class ExchangeRate implements Parcelable {
     };
     @SerializedName("baseCurrency")
     @Expose
-    private final String baseCurrency;
+    private String baseCurrency;
     @SerializedName("currency")
     @Expose
-    private final String currency;
+    private String currency;
     @SerializedName("saleRateNB")
     @Expose
-    private final Double saleRateNB;
+    private Double saleRateNB;
     @SerializedName("purchaseRateNB")
     @Expose
-    private final Double purchaseRateNB;
+    private Double purchaseRateNB;
     @SerializedName("saleRate")
     @Expose
-    private final Double saleRate;
+    private Double saleRate;
     @SerializedName("purchaseRate")
     @Expose
-    private final Double purchaseRate;
-
+    private Double purchaseRate;
     protected ExchangeRate(Parcel in) {
         this.baseCurrency = in.readString();
         this.currency = in.readString();
@@ -46,17 +45,30 @@ public class ExchangeRate implements Parcelable {
         this.saleRate = (Double) in.readValue(Double.class.getClassLoader());
         this.purchaseRate = (Double) in.readValue(Double.class.getClassLoader());
     }
+    public ExchangeRate(){}
 
     public String getCurrency() {
         return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
     }
 
     public Double getSaleRate() {
         return saleRate;
     }
 
+    public void setSaleRate(Double saleRate) {
+        this.saleRate = saleRate;
+    }
+
     public Double getPurchaseRate() {
         return purchaseRate;
+    }
+
+    public void setPurchaseRate(Double purchaseRate) {
+        this.purchaseRate = purchaseRate;
     }
 
     @Override

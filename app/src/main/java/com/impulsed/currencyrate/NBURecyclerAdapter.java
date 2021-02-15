@@ -31,6 +31,7 @@ public class NBURecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     public void setNewData(List<NBUPojo> list) {
         items = list;
+        notifyDataSetChanged();
     }
 
     public void selectItem(int position) {
@@ -76,6 +77,8 @@ public class NBURecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     @Override
     public int getItemCount() {
+        if (items==null)
+            return 0;
         return items.size();
     }
 

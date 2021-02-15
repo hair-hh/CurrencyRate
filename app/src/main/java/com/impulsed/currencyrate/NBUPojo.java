@@ -22,23 +22,22 @@ public class NBUPojo implements Parcelable {
     };
     @SerializedName("StartDate")
     @Expose
-    private final String startDate;
+    private String startDate;
     @SerializedName("TimeSign")
     @Expose
-    private final String timeSign;
+    private String timeSign;
     @SerializedName("CurrencyCode")
     @Expose
-    private final String currencyCode;
+    private String currencyCode;
     @SerializedName("CurrencyCodeL")
     @Expose
-    private final String currencyCodeL;
+    private String currencyCodeL;
     @SerializedName("Units")
     @Expose
-    private final Integer units;
+    private Integer units;
     @SerializedName("Amount")
     @Expose
-    private final Double amount;
-
+    private Double amount;
     protected NBUPojo(Parcel in) {
         this.startDate = in.readString();
         this.timeSign = in.readString();
@@ -47,17 +46,31 @@ public class NBUPojo implements Parcelable {
         this.units = (Integer) in.readValue(Integer.class.getClassLoader());
         this.amount = (Double) in.readValue(Double.class.getClassLoader());
     }
+    public NBUPojo() {
+    }
 
     public String getCurrencyCodeL() {
         return currencyCodeL;
+    }
+
+    public void setCurrencyCodeL(String currencyCodeL) {
+        this.currencyCodeL = currencyCodeL;
     }
 
     public Integer getUnits() {
         return units;
     }
 
+    public void setUnits(Integer units) {
+        this.units = units;
+    }
+
     public Double getAmount() {
         return amount;
+    }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
     }
 
     @Override

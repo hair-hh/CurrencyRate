@@ -1,5 +1,6 @@
 package com.impulsed.currencyrate;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import java.util.List;
 
 public class PBRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
+    private static final String TAG = "PB_FRAGMENT_ADAPTER";
 
     List<ExchangeRate> items;
     private final ItemViewHolder.OnItemClickListener onItemClickListener;
@@ -20,6 +22,7 @@ public class PBRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     public PBRecyclerAdapter(List<ExchangeRate> items, ItemViewHolder.OnItemClickListener listener) {
         this.items = items;
         this.onItemClickListener = listener;
+        Log.d(TAG, "constructor");
     }
 
 
@@ -28,9 +31,14 @@ public class PBRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
             View item = LayoutInflater.from(parent.getContext()).inflate(R.layout.pb_item, parent, false);
+            Log.d(TAG, "onCreateViewHolder");
             return new ItemViewHolder(item, onItemClickListener);
+
     }
 
+    public ExchangeRate getItem(int position){
+        return items.get(position);
+    }
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ExchangeRate data;
@@ -43,16 +51,21 @@ public class PBRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         itemViewHolder.pbItemCurrency.setText(curr);
         itemViewHolder.pbItemSale.setText(sale);
         itemViewHolder.pbItemPurchase.setText(pur);
+        Log.d(TAG, "onBindViewHolder");
     }
 
     @Override
     public int getItemCount() {
-        return items.size() ;
+        if (items==null)
+            return 0;
+        Log.d(TAG, "getItemCount");
+        return items.size();
     }
     
     public void setNewData(List<ExchangeRate> list) {
         items = list;
         notifyDataSetChanged();
+        Log.d(TAG, "setNewData");
     }
 
     public static class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -68,6 +81,7 @@ public class PBRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                 pbItemSale = v.findViewById(R.id.pbSaleTVIt);
                 this.onItemClickListener = onItemClickListener;
                 v.setOnClickListener(this);
+            Log.d(TAG, "ViewHolder_constructor");
         }
 
         @Override

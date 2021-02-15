@@ -354,4 +354,5 @@
         <item>ZMW</item>
         <item>ZWL</item>
     </string-array>
+    <string name="network_problem">Проблема с сетевым подключением!</string>
 </resources>
